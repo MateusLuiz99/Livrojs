@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 3.4</title>
+</head>
+<body>
+    <h1>Programa Fuso Horário</h1>
+    <hr>
+    <p>Hora no Brasil (hm):
+        <!-- Apesar de ser um tempo em hora esse campo precisa ser receber o tipo 
+        text porque o tipo number não recebe valor do tipo 12.35, por exmplo, 
+        valores quebrados no caso, então esse campo será convertido no JavaScript 
+        para 'Number' assim recebendo números quebrados. -->
+        <input type="text" id="inHoraBr">
+    </p>
+    <input type="button" id="btHoraFr" value="Exibir Hora na França">
+    <h3 id="outHoraFr"></h3>
+    <script src="./js/ex3_4.js"></script>
+</body>
+</html>
